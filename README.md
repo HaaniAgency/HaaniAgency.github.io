@@ -1,2 +1,1 @@
-# HaaniAgency.github.io
-Haani Agency Portfolio
+# Haani Agency Portfolio

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
+    />
+    <title>Haani Agency | هاني</title>
+    <link rel="icon" type="image/x-icon" href="./public/logo@2x.png">
+  </head>
+  <body>
+    <div class="index">
+      <section class="header">
+        <div class="container"></div>
+        <div class="inner-frame">
+          <div class="dark-theme-frame">
+            <img class="logo-icon" loading="eager" alt="" src="./public/logo@2x.png" />
+          </div>
+          <h1 class="title">Haani Agency</h1>
+        </div>
+        <div class="description">
+          <span>We help </span>
+          <span class="businesses-entrepreneurs">businesses / entrepreneurs</span>
+          <span> with solutions so they can increase their sales and revenue</span>
+        </div>
+      </section>
+      <section class="light-theme-frame-parent">
+        <div class="light-theme-frame">
+          <button class="light-theme" id="lightTheme">
+            <div class="container1"></div>
+            <img class="sun-icon" alt="" src="./public/sun@2x.png" />
+
+            <div class="text-component">
+              <b class="light-theme1">Light Theme</b>
+            </div>
+          </button>
+        </div>
+        <button class="dark-theme" id="darkTheme">
+          <div class="container2"></div>
+          <img class="moon-icon" alt="" src="./public/moon@2x.png" />
+
+          <div class="frame-duo">
+            <b class="dark-theme1">Dark Theme</b>
+          </div>
+        </button>
+      </section>
+    </div>
+
+    <script>
+      var lightTheme = document.getElementById('lightTheme');
+      if (lightTheme) {
+        lightTheme.addEventListener('click', function () {
+          window.location.href = './light/en.html';
+        });
+      }
+
+      var darkTheme = document.getElementById('darkTheme');
+      if (darkTheme) {
+        darkTheme.addEventListener('click', function () {
+          window.location.href = './dark/en.html';
+        });
+      }
+    </script>
+  </body>
+</html>

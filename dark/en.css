@@ -1,0 +1,61 @@
+.container4,
+.header1 {
+  background-color: var(--color-grey);
+}
+.header1 {
+  color: var(--color-white);
+}
+.agriculture-section {
+  color: var(--color-white);
+}
+.container5,
+.email {
+  background-color: var(--color-grey);
+}
+.email:hover,
+.follow:hover {
+  background-color: var(--color-grey-hover);
+}
+.text {
+  color: var(--color-white);
+}
+.follow {
+  background-color: var(--color-grey);
+}
+.container7,
+.what-we-do {
+  background-color: var(--color-grey);
+}
+.what-we-do {
+  color: var(--color-lightblue);
+}
+.container8,
+.cool-projects-weve-done {
+  background-color: var(--color-grey);
+}
+.cool-projects-weve-done {
+  color: var(--color-lightblue);
+}
+.description2 {
+  color: var(--color-white);
+}
+.about-us,
+.container9 {
+  background-color: var(--color-grey);
+}
+.about-us {
+  color: var(--color-lightblue);
+}
+.container10,
+.what-clients-say-about-us {
+  background-color: var(--color-grey);
+}
+.what-clients-say-about-us {
+  color: var(--color-lightblue);
+}
+.find-us {
+  background-color: var(--color-grey);
+}
+.desktop {
+  background-color: var(--color-darksmoke);
+}
