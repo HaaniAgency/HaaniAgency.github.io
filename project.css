@@ -204,7 +204,7 @@
   background-color: var(--color-white);
   box-shadow: var(--floating);
   align-items: flex-start;
-  padding: var(--padding-13xl) 80px 239px;
+  padding: 50px 30px;
   gap: var(--gap-18xl);
   max-width: 100%;
   text-align: center;
